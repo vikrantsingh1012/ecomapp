@@ -1,0 +1,42 @@
+.home-container {
+    background-color: #f4f4f9; /* Light background color */
+    color: #333; /* Dark text color */
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .home-content {
+    display: flex; /* Flex layout for cards */
+    justify-content: space-around;
+    flex-wrap: wrap; /* Wrap cards on smaller screens */
+  }
+  
+  .content-card {
+    background-color: white; /* White card background */
+    border: 1px solid #ddd; /* Card border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin: 10px;
+    width: 30%; /* Set width for each card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Smooth transition */
+  }
+  
+  .content-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .home-footer {
+    margin-top: 20px;
+    font-size: 14px; /* Smaller footer text */
+  }
+  
